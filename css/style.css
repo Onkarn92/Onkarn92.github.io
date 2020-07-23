@@ -8791,11 +8791,13 @@ h1, h2, h3, h4, h5,
   .services-1:hover {
     background: #3e64ff; }
     .services-1:hover .icon i {
-      color: #fff; }
+      color: #ffffff; }
     .services-1:hover h3 {
-      color: #000000; }
-      .services-1:hover h3:after {
-        background: #000000; }
+      color: #ffffff; }
+    .services-1:hover h3:after {
+      background: #ffffff; }
+    .services-1:hover p {
+      color: #ffffff; }
 
 .progress-wrap {
   width: 100%;
