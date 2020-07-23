@@ -1182,6 +1182,24 @@ textarea.form-control {
 	@include media-breakpoint-down(sm){
 		padding: 6em 0;
 	}
+  ul.project-info{
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		li{
+			list-style: none;
+			margin-bottom: 10px;
+			span{
+				width: calc(100% - 200px);
+				&:first-child{
+					font-weight: 600;
+					color: $black;
+					width: 200px;
+				}
+			}
+		}
+	}
 }
 
 .ftco-no-pt{

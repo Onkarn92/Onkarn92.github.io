@@ -9068,6 +9068,20 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
+  .ftco-section ul.project-info {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 100%; }
+  .ftco-section ul.project-info li {
+          list-style: none;
+          margin-bottom: 10px; }
+  .ftco-section ul.project-info li span {
+            width: calc(100% - 200px); }
+  .ftco-section ul.project-info li span:first-child {
+              font-weight: 600;
+              color: #000000;
+              width: 200px; }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
